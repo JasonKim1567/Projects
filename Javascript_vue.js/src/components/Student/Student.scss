@@ -1,0 +1,92 @@
+.student {
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  padding: 20px 0;
+
+  &__pic {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #b9b9b9;
+    border-radius: 50%;
+    margin: 0 30px;
+  }
+
+  &__content {
+    width: 590px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+  }
+
+  &__toggle-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__info {
+    margin: 0 0 0 18px;
+  }
+
+  &__text {
+    color: #9c9c9c;
+    margin: 0;
+  }
+
+  &__grades {
+    margin: 16px 0 0 0;
+  }
+
+  &__tags {
+    width: 100%;
+    min-height: 35px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 5px 5px 0;
+    background: #ebebeb;
+    display: flex;
+    align-items: center;
+  }
+
+  &__tag-text {
+    margin: 0 10px;
+    color: #9c9c9c;
+  }
+}
+
+.expand-btn {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
+  margin: 0 10px 0 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.add-tag-input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+  color: #9c9c9c;
+
+  &::placeholder {
+    color: #9c9c9c; 
+  }
+}
