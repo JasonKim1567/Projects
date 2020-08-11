@@ -8,5 +8,5 @@ Those are tested by Hashways
 2. Data base - to extract scv file data and merge 
                in one by different conditions
 
-3. Front end - Take api from server and make websites by using Javvascript
+3. Front end - Take api from server and make websites by using Javascript 
                framework-vue js and css styling
